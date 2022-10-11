@@ -30,13 +30,6 @@ export const Signup = () => {
   useEffect(() => {
     if (Object.keys(errors).length === 0 && dataIsAvailable) {
       toggle();
-      // axios.post('https://75g48.mocklab.io/demo', values)
-      //     .then(response => {
-      //         console.log(response)
-      //     })
-      //     .catch(error => {
-      //         console.log(error);
-      //     })
     }
   }, [errors]);
 
@@ -56,7 +49,7 @@ export const Signup = () => {
               <button className="signup-options-btn">
                 <img
                   className="option-img"
-                  src={google}
+                  src="https://raw.githubusercontent.com/sroy-be18/SignUpBootstrap/a8df55535492f76f9e75e47f67585bbfc74ac46b/google.svg"
                   alt="google-login"
                 ></img>
                 <div className="option-title">Sign up with Google</div>
@@ -66,7 +59,7 @@ export const Signup = () => {
               <button className="signup-options-btn">
                 <img
                   className="option-img"
-                  src={facebook}
+                  src="https://raw.githubusercontent.com/sroy-be18/SignUpBootstrap/a8df55535492f76f9e75e47f67585bbfc74ac46b/fb.svg"
                   alt="faceook-login"
                 ></img>
                 <div className="option-title">Sign up with Facebook</div>
@@ -133,7 +126,7 @@ export const Signup = () => {
                 <button className="signup-button" type="submit">
                   <img
                     className="submit-img"
-                    src={signup}
+                    src="https://raw.githubusercontent.com/sroy-be18/SignUpBootstrap/a8df55535492f76f9e75e47f67585bbfc74ac46b/arrow.svg"
                     alt="Sign Up Button"
                   ></img>
                 </button>
@@ -147,7 +140,11 @@ export const Signup = () => {
           </div>
         </div>
         <div className="col-6 image-container">
-          <img className="img" alt="rocket-img" src={img} />
+          <img
+            className="img"
+            alt="rocket-img"
+            src="https://raw.githubusercontent.com/sroy-be18/SignUpBootstrap/a8df55535492f76f9e75e47f67585bbfc74ac46b/image.svg"
+          />
         </div>
       </div>
     </div>
