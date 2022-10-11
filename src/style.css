@@ -164,3 +164,9 @@ body {
   background: #247ba0;
   color: #fff;
 }
+
+@media screen and (max-width: 819px){
+  .img{
+    padding-top: 60%;
+  }
+}
