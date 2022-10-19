@@ -126,7 +126,7 @@ export const Signup = () => {
                 <button className="signup-button" type="submit">
                   <img
                     className="submit-img"
-                    src="https://raw.githubusercontent.com/sroy-be18/SignUpBootstrap/a8df55535492f76f9e75e47f67585bbfc74ac46b/arrow.svg"
+                    src="https://raw.githubusercontent.com/sroy-be18/SignUpBootstrap/main/arrow2.PNG"
                     alt="Sign Up Button"
                   ></img>
                 </button>
