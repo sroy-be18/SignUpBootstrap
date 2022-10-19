@@ -44,8 +44,8 @@ export const Signup = () => {
             <span className="col-1 line"></span>
             <span className="col-auto sub-title">Sign Up With</span>
           </div>
-          <div className="row justify-content-between signup-options">
-            <div className="col-md-5 signup-option">
+          <div className="row signup-options">
+            <div className="col-6 signup-option">
               <button className="signup-options-btn">
                 <img
                   className="option-img"
@@ -55,7 +55,7 @@ export const Signup = () => {
                 <div className="option-title">Sign up with Google</div>
               </button>
             </div>
-            <div className="col-md-5 signup-option">
+            <div className="col-6 signup-option">
               <button className="signup-options-btn">
                 <img
                   className="option-img"
