@@ -172,8 +172,8 @@ body {
   }
 }
 
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .signup-options {
     gap: 5px;
   }
-} */
+}
