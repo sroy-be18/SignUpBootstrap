@@ -1,8 +1,8 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
 * {
   box-sizing: border-box;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 body {
   background-image: linear-gradient(
@@ -15,8 +15,9 @@ body {
   background-attachment: fixed;
   overflow-x: hidden;
 }
-.signup-container {
+.signup-container{
   margin-top: 3%;
+  padding-left: 5%;
   border-radius: 10px;
   background-image: linear-gradient(
     34deg,
@@ -24,35 +25,37 @@ body {
     rgba(234, 234, 255, 1) 100%
   );
 }
-.title {
-  color: purple;
+.title{
+  color: #1a237e;
+  padding-top: 5%;
   font-size: 60px;
   font-weight: 600;
   margin-bottom: 5%;
 }
 
-.line-container {
+.line-container{
   padding-left: 2%;
 }
-.line {
+.line{
   border-bottom: solid red;
   height: 13px;
 }
-.sub-title {
+.sub-title{
   color: red;
   font-size: large;
   font-weight: bold;
 }
-.signup-options {
+.signup-options{
+  padding-top: 4%;
+}
+.signup-option{
   padding: 2%;
-}
-.signup-option {
-  padding: 0.5%;
-  display: flex;
-  border: 1px solid grey;
+  border: 1px solid lightgrey;
   border-radius: 5px;
+  display: flex;
+  cursor: pointer;
 }
-.signup-options-btn {
+.signup-options-btn{
   border: none;
   background: none;
   padding: none;
@@ -62,17 +65,16 @@ body {
   cursor: pointer;
 }
 .option-img {
-  height: 20px;
-  padding-left: 10px;
-  padding-right: 30px;
+  height:20px;
+  padding: 1% 10% 0% 3%;
 }
-.upper-two {
+.upper-two{
   margin-bottom: 2%;
 }
-.form-container {
+.form-container{
   padding-top: 8%;
 }
-.terms-checkbox {
+.terms-checkbox{
   margin-top: 2%;
 }
 .signup-button {
@@ -83,7 +85,7 @@ body {
   cursor: pointer;
 }
 .submit-img {
-  height: 50px;
+  height: 60px;
   width: 60px;
 }
 
@@ -99,12 +101,12 @@ body {
   color: red;
   font-size: small;
 }
-.image-container {
+.image-container{
   align-items: center;
   justify-content: center;
 }
-.img {
-  padding: 10%;
+.img{
+  padding: 15%;
 }
 .error {
   margin: 0;
@@ -169,4 +171,11 @@ body {
   .img{
     padding-top: 60%;
   }
+}
+
+@media screen and (max-width: 768px) {
+  .signup-options{
+    gap: 5px;
+  }
+  
 }
